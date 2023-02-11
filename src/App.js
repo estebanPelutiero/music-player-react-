@@ -1,9 +1,10 @@
+import React from 'react'
+import Home from './screens/home/Home';
 
+const App = () => {
 
-function App() {
-  return (
-    <div>music player</div>
-  );
+  return <div><Home /></div>
+
 }
-
+  
 export default App;
